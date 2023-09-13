@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +108,7 @@ a:hover {
   top: 100%;
   right: 0;
   background-color: rgb(253, 252, 252);
-  width: fit-content;
+  
   box-shadow: 10px -10px rgb(0, 14, 14);
   max-height: 0;
   overflow: hidden;
@@ -159,7 +164,7 @@ section {
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  
 }
 
 .section-container {
@@ -173,6 +178,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-top: 100px;
 }
 
 .section__pic-container {
@@ -181,7 +187,7 @@ section {
   width: 400px;
   margin: auto 0;
   border: 1px solid black;
-  border-radius: 20% 40% 50% 70%;
+  border-radius: 300px ;
 }
 
 .section__pic-container:hover {
